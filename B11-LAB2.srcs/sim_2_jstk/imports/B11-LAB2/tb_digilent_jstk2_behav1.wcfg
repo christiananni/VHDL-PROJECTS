@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_digilent_jstk2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_digilent_jstk2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="798658fs"></ZoomEndTime>
+      <Cursor1Time time="97651fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="259"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb_digilent_jstk2/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/led_r" type="array">
+      <obj_property name="ElementShortName">led_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_r[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/led_g" type="array">
+      <obj_property name="ElementShortName">led_g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_g[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/led_b" type="array">
+      <obj_property name="ElementShortName">led_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_b[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/jstk_x" type="array">
+      <obj_property name="ElementShortName">jstk_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">jstk_x[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/jstk_y" type="array">
+      <obj_property name="ElementShortName">jstk_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">jstk_y[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/btn_jstk" type="logic">
+      <obj_property name="ElementShortName">btn_jstk</obj_property>
+      <obj_property name="ObjectShortName">btn_jstk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/btn_trigger" type="logic">
+      <obj_property name="ElementShortName">btn_trigger</obj_property>
+      <obj_property name="ObjectShortName">btn_trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digilent_jstk2/reset_time" type="other">
+      <obj_property name="ElementShortName">reset_time</obj_property>
+      <obj_property name="ObjectShortName">reset_time</obj_property>
+   </wvobject>
+</wave_config>

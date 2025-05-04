@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.69859",
+   "Default View_TopLeft":"-142,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 5 -x 1300 -y 440 -defaultsOSRD
+preplace port SPI_M_0 -pg 1 -lvl 5 -x 1300 -y 620 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -10 -y 580 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -10 -y 500 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 570 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 390 -y 540 -defaultsOSRD
+preplace inst AXI4Stream_UART_0 -pg 1 -lvl 4 -x 1130 -y 430 -defaultsOSRD
+preplace inst axi4stream_spi_master_0 -pg 1 -lvl 4 -x 1130 -y 630 -defaultsOSRD
+preplace inst digilent_jstk2_0 -pg 1 -lvl 3 -x 760 -y 420 -defaultsOSRD
+preplace inst jstk_uart_bridge_0 -pg 1 -lvl 3 -x 760 -y 120 -defaultsOSRD
+preplace netloc sys_clock_1 1 0 1 NJ 580
+preplace netloc reset_1 1 0 2 10 500 200
+preplace netloc clk_wiz_0_locked 1 1 1 N 580
+preplace netloc clk_wiz_0_clk_out1 1 1 3 210 440 560 570 970
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 2 570 580 980
+preplace netloc proc_sys_reset_0_peripheral_reset 1 2 2 N 540 960J
+preplace netloc digilent_jstk2_0_btn_trigger 1 2 2 610 290 890
+preplace netloc jstk_uart_bridge_0_led_b 1 2 2 620 270 910
+preplace netloc jstk_uart_bridge_0_led_g 1 2 2 630 560 930
+preplace netloc jstk_uart_bridge_0_led_r 1 2 2 640 530 940
+preplace netloc digilent_jstk2_0_btn_jstk 1 2 2 620 250 920
+preplace netloc digilent_jstk2_0_jstk_y 1 2 2 600 260 900
+preplace netloc digilent_jstk2_0_jstk_x 1 2 2 580 280 880
+preplace netloc axi4stream_spi_master_0_M_AXIS 1 2 3 610 550 NJ 550 1280
+preplace netloc AXI4Stream_UART_0_UART 1 4 1 NJ 440
+preplace netloc digilent_jstk2_0_m_axis 1 3 1 950 380n
+preplace netloc jstk_uart_bridge_0_m_axis 1 3 1 950 90n
+preplace netloc AXI4Stream_UART_0_M00_AXIS_RX 1 2 3 590 240 NJ 240 1280
+preplace netloc axi4stream_spi_master_0_SPI_M 1 4 1 NJ 620
+levelinfo -pg 1 -10 110 390 760 1130 1300
+pagesize -pg 1 -db -bbox -sgen -120 0 1410 710
+"
+}
+0
